@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+
+@layer base {
+  @font-face {
+    font-family: "Agrandir";
+    src: url("./assets/fonts/Agrandir/Agrandir-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "AgrandirGrandHeavy";
+    src: url("./assets/fonts/Agrandir/Agrandir-GrandHeavy.otf");
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Fredoka", sans-serif;
+  height: 100%;
+  background-color: #330949;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nav-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
