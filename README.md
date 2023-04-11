@@ -1,4 +1,4 @@
-# ZKClaims
+# Skillzo
 A platform for developers to get hired by claiming their skills using Reclaim protocol. <br />
 It helps Companies to save their time by not going through so many application
 
